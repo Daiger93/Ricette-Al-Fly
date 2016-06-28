@@ -2,7 +2,7 @@
 
 session_start();
 
-$ids =array('eUYwK2vGsfs:APA91bEXEr-BMp8C8QHDCo29x2fi5N5qXex5tMIbm3xomBfp9T4djFjVb6ky9XKhTdNVwjrerzcWA9EVaihM3Z-g_Sqo-6dDvfFsbxcrwgZvnsiWqOWeG85CTKeoSkacmeo7TNJBtxUL');
+$ids =array('dOieoUHXlU0:APA91bHE2lUEgkoHQK7lJ1BJw8Ptid1dePxGg-uz4VscksNTo81XQLpPxRGLiVzhEpZDMst5DociYil0FpG8Eq5JW6v5HNZXDAXCUwI-muMNO_ITumxKT3nb6-NBd9AaXlxS967_oZCu');
 
 
 $data = array('operation' => 'create', 'notification_key_name' => 'aggiornamento', 'registration_ids' => $ids);

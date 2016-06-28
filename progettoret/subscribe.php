@@ -5,7 +5,7 @@ session_start();
 $ids =array($_POST['id']);
 
 
-$data = array('operation' => 'add', 'notification_key_name' => 'aggiornamento', 'notification_key' => 'APA91bEt3LRwvHNTHU_lODruJpz79G1eSCCjg5QIafPKZSnoJu0Jhxk09Wqzlchioh32bmTlZrfEZXJ2E3vfUi5C_qaltywfBy0uRp1r84_rCnU9ezlPw8Y', 'registration_ids' => $ids);
+$data = array('operation' => 'add', 'notification_key_name' => 'aggiornamento', 'notification_key' => 'APA91bFuxSo3b80E537ewVZqSOsfz5yVf7JbfMw0HxVWmQ4C15oQt1C5vRlOtqM_3PiobWFT3ThyoXqgHwq2ErRt9j2jlFNF5TNTt4yG7QtdgUxw2hTlguc', 'registration_ids' => $ids);
 
 // The recipient registration tokens for this notification
 // https://developer.android.com/google/gcm/    

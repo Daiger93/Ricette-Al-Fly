@@ -6,7 +6,7 @@ $data = array('hello' => 'Prova di Broadcast!');
 
 // The recipient registration tokens for this notification
 // https://developer.android.com/google/gcm/    
-$ids ='APA91bHIyrYJLx76mcaKM2gG7YRTUJHwNwmMdYlWTPVWO3nYRex3tOCT95e1lZkQmP04TowVyqJn9MF70EGrqtg9Q-PMBC7cALIJqSm10BGgAMnUY4AfEVI';
+$ids ='APA91bFuxSo3b80E537ewVZqSOsfz5yVf7JbfMw0HxVWmQ4C15oQt1C5vRlOtqM_3PiobWFT3ThyoXqgHwq2ErRt9j2jlFNF5TNTt4yG7QtdgUxw2hTlguc';
 
 // Send push notification via Google Cloud Messaging
 sendPushNotification($data, $ids);
