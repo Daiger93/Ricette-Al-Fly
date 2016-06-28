@@ -15,3 +15,4 @@ Servizi implementati:
 Wrapping di Servizi implementati:
   - Condividi.php: Metodo GET su 'statuses/update' di Twitter per la condivisione di una singola ricetta sul proprio profilo Twitter. Parametri: ID. 
   - Ultima.php: Metodo GET che cerca sul DB la ricetta con 'ID' massimo(ultima ricetta inserita) e inoltra una richiesta GET a 'ricetta.php' con parametro 'ID'(risultato della Query). Non ha parametri.
+  - Broadcast.php: Metodo GET su 'https://gcm-http.googleapis.com/gcm/send' che inoltra una notifica a tutti gli utenti per segnarargli che una nuova ricetta è stata aggiunta. Non ha parametri.
